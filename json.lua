@@ -384,5 +384,10 @@ function json.decode(str)
   return res
 end
 
+function json_encode(v)
+  return json.encode(v)
+end
 
-return json
+function json_decode(str)
+  return json.decode(str)
+end
